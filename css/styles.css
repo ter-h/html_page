@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.top-right nav {
+    display: flex;
+    gap: 20px;
+}
+
+.top-right a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+}
+
+.top-right a:visited {
+    color: inherit;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading p {
+  opacity: 0.8;
+}
+
+.container {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.projects,
+.education {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    border-right: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    transition: 0.2s ease;
+}
+
+.project-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-list a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
